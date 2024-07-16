@@ -275,7 +275,7 @@ function BookCar() {
             you will receive:
           </h4>
           <p>
-            Your rental voucher to produce on arrival at the rental desk and a
+            Your rent voucher to produce on arrival at the rent desk and a
             toll-free customer support number.
           </p>
         </div>

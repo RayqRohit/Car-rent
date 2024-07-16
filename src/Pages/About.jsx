@@ -41,7 +41,7 @@ function About() {
                   <img src={Box2} alt="car-icon" />
                   <span>
                     <h4>85</h4>
-                    <p>Rental Outlets</p>
+                    <p>rent Outlets</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">

@@ -62,7 +62,7 @@ function Navbar() {
               alignItems: "center"
             }}>
             <Link to="/" onClick={() => window.scrollTo(0, 0)} style={{ textDecoration: "none", color: "inherit", fontSize: "3rem", fontWeight : "bolder", whiteSpace: "nowrap" }}>
-              Car <span style={{ color: "#ff4d30" }}>Rental</span>
+              Car <span style={{ color: "#ff4d30" }}>Rent</span>
             </Link>
           </div>
           <ul className="navbar__links">
@@ -104,10 +104,10 @@ function Navbar() {
           </ul>
           <div className="navbar__buttons">
             <Link className="navbar__buttons__sign-in" to="/">
-              Sign In
+              Login
             </Link>
             <Link className="navbar__buttons__register" to="/">
-              Register
+              sign in
             </Link>
           </div>
 

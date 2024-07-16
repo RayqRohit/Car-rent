@@ -40,7 +40,7 @@ function Hero() {
             <div className="hero-content__text">
               <h4>Start Planning Your Trip Today!</h4>
               <h1>
-              Score <span>Big</span> Savings on Car Rental
+              Score <span>Big</span> Savings on Car Rent
               </h1>
               <p>
               Drive Your Dream Car Today! Enjoy unbeatable prices, unlimited miles, flexible pick-up options, and so much more.
@@ -51,10 +51,10 @@ function Hero() {
                   className="hero-content__text__btns__book-ride"
                   to="/"
                 >
-                  Book Ride &nbsp; <IconCircleCheck />
+                 Schedule Journey &nbsp; <IconCircleCheck />
                 </Link>
                 <Link className="hero-content__text__btns__learn-more" to="/">
-                  Learn More &nbsp; <IconChevronRight />
+                Read More&nbsp; <IconChevronRight />
                 </Link>
               </div>
             </div>
