@@ -3,6 +3,7 @@ import Logo from "../images/logo/logo.png";
 import { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 
+
 function Navbar() {
   const [nav, setNav] = useState(false);
 
@@ -55,9 +56,13 @@ function Navbar() {
         {/* desktop */}
 
         <div className="navbar">
-          <div className="navbar__img">
-            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-              <img src={Logo} alt="logo-img" />
+          <div className="navbar__img"    style={{
+              width: "fit-content", // Adjust as needed
+              display: "flex",
+              alignItems: "center"
+            }}>
+            <Link to="/" onClick={() => window.scrollTo(0, 0)} style={{ textDecoration: "none", color: "inherit", fontSize: "3rem", fontWeight : "bolder", whiteSpace: "nowrap" }}>
+              Car <span style={{ color: "#ff4d30" }}>Rental</span>
             </Link>
           </div>
           <ul className="navbar__links">

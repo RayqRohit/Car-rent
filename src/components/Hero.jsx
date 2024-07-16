@@ -38,13 +38,12 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>Start Planning Your Trip Today!</h4>
               <h1>
-                Save <span>big</span> with our car rental
+              Score <span>Big</span> Savings on Car Rental
               </h1>
               <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                flexible pick-up options and much more.
+              Drive Your Dream Car Today! Enjoy unbeatable prices, unlimited miles, flexible pick-up options, and so much more.
               </p>
               <div className="hero-content__text__btns">
                 <Link
